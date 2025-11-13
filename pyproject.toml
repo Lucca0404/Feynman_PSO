@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "feynman-pso"
+version = "0.1.0"
+authors = [
+    { name = "Lucca Nobre", email = "luccamutran@gmail.com" }
+]
+description = "Biblioteca simples de Particle Swarm Optimization (PSO) para pesquisas do Projeto Feynman"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.8"
+
+keywords = ["PSO", "optimization", "swarm intelligence", "metaheuristic", "feynman project"]
+
+[project.urls]
+Homepage = "https://github.com/Lucca0404/Feynman_PSO"
